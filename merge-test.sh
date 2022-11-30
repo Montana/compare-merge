@@ -1,12 +1,11 @@
 set -e
 
-
 shopt -s extglob
 shopt -s dotglob
 
 OLD_REPOS=(polisServer polisMath polisClientAdmin polisClientParticipation polisReport)
 NEW_DIRS=( server      math      client-admin     client-participation     report)
-MONOREPO="polis"
+MONOREPO="mono"
 
 echo "Removing old poly repos."
 rm -rf $all_repos
